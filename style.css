@@ -213,7 +213,6 @@ a {
     transform: rotate(360deg);
 }
 
-
 .service-grid_item:hover .move {
     transition: transform 1s;
     transform: translate(150px, 0);
@@ -269,7 +268,6 @@ a {
 
 .product__link {
     color: #000000;
-
 }
 
 .product__link:hover {
@@ -295,10 +293,6 @@ a {
     max-width: 291px;
     display: flex;
 }
-
-/* .meet {
-    padding-bottom: 114px;
-} */
 
 .meet__top {
     filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
@@ -738,6 +732,7 @@ a {
     .meet__person {
         /* max-width: 320px; */
         height: 100%;
+        align-self: center;
     }
 
     .meet__peoples {
@@ -868,13 +863,19 @@ a {
         margin-bottom: 100px;
     }
 
+    .heading {
+        text-align: center;
+    }
+
     .meet__content {
         justify-content: center;
         flex-wrap: wrap;
     }
 
     .text_small {
+        width: auto;
         margin-top: 16px;
+        text-align: center
     }
 
     .meet__line {
@@ -971,10 +972,10 @@ a {
 
     .close {
         position: absolute;
-        width: 20px;
-        height: 20px;
-        top: 12px;
-        right: 0px;
+        width: 28px;
+        height: 28px;
+        top: 32px;
+        right: 5px;
     }
 
     .nav {
@@ -1108,9 +1109,9 @@ a {
         width: auto;
     }
 
-    .meet__content {
+    /* .meet__content {
         display: block;
-    }
+    } */
 
     .meet__person {
         min-width: 240px;
