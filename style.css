@@ -471,6 +471,7 @@ a {
     border: none;
     transition: all 0.3s;
     border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .subscribe__button:hover {
@@ -572,6 +573,7 @@ a {
     border: none;
     grid-column: 1 / -1;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .get_button:hover {
